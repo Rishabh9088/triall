@@ -10,6 +10,7 @@ import com.google.android.material.snackbar.Snackbar;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.util.Log;
 import android.view.View;
 
 import androidx.navigation.NavController;
@@ -40,7 +41,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         setSupportActionBar(binding.toolbar);
         TextView txt = findViewById(R.id.txt);
-        
+        Log.i("tag","message");
 //        Button button = findViewById(R.id.button);
 //        findViewById(R.id.button).setOnClickListener(new click()); //using another class
 //        findViewById(R.id.button).setOnClickListener(MainActivity.this);//using same cls
