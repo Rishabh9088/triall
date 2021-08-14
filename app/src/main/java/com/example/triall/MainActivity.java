@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         TextView txt = findViewById(R.id.txt);
         Log.i("tag","message");
         Log.i("tag","message2");
-        Log.i("tag","message3");
+        Log.i("tag","my message3");
 //        Button button = findViewById(R.id.button);
 //        findViewById(R.id.button).setOnClickListener(new click()); //using another class
 //        findViewById(R.id.button).setOnClickListener(MainActivity.this);//using same cls
